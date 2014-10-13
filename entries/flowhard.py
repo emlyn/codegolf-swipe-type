@@ -14,5 +14,11 @@ json.dumps({
 "lm-code": "en_US"}
 )
 )
-r = json.loads(r.content)['predictions']
-print r[0]['term'] if len(r) > 0 else ""
+
+terms = [p['term'].encode('utf8') for p in json.loads(r.content)['predictions']];
+for t in terms:
+  if t[0]+t[-1] == input[0]+input[-1]:
+    print t
+    break
+else:
+  print terms[0] if len(terms) > 0 else ""

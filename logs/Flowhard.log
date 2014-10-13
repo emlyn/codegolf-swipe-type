@@ -1,44 +1,100 @@
 ==> Input: 'poiuytdsdrtrsasdfghjkl', expecting 'postal'
-==> Timeout
+==> Stdout
+postal
+
+==> Return code 0
+==> Pass
 
 ==> Input: 'wertyuiookjnnbfddrtyuioiuytfds', expecting 'wondrous'
-==> Timeout
+==> Stdout
+wondrous
+
+==> Return code 0
+==> Pass
 
 ==> Input: 'dfuiuydsdfghjkoppoiuytrsaserrrrresasdfge', expecting 'disparage'
-==> Timeout
+==> Stdout
+disparage
+
+==> Return code 0
+==> Pass
 
 ==> Input: 'fewasdrtyuytres', expecting 'features'
-==> Timeout
+==> Stdout
+features
+
+==> Return code 0
+==> Pass
 
 ==> Input: 'efgbnbghuijnbgfres', expecting 'engines'
-==> Timeout
+==> Stdout
+engines
+
+==> Return code 0
+==> Pass
 
 ==> Input: 'rerghmhgredfytrds', expecting 'remedys'
-==> Timeout
+==> Stdout
+
+
+==> Return code 0
+==> Fail
 
 ==> Input: 'cghiokmngfrefgbnbvfdfyuijnbg', expecting 'commending'
-==> Timeout
+==> Stdout
+commending
+
+==> Return code 0
+==> Pass
 
 ==> Input: 'ujnbfrtyuiuytrerghnbgfdfghjkliuytresdt', expecting 'unfriendliest'
-==> Timeout
+==> Stdout
+
+
+==> Return code 0
+==> Fail
 
 ==> Input: 'poiuytdsasdfgbnjiuydsdrtrds', expecting 'pianists'
-==> Timeout
+==> Stdout
+pianists
+
+==> Return code 0
+==> Pass
 
 ==> Input: 'thhgreresasrtttyuiopoiuyytds', expecting 'therapys'
-==> Timeout
+==> Stdout
+therapists
+
+==> Return code 0
+==> Fail
 
 ==> Input: 'sasrtyuijnbgfds', expecting 'sayings'
-==> Timeout
+==> Stdout
+sayings
+
+==> Return code 0
+==> Pass
 
 ==> Input: 'lijnjikmnhgrefgbnht', expecting 'liniment'
-==> Timeout
+==> Stdout
+
+
+==> Return code 0
+==> Fail
 
 ==> Input: 'fdsasxcghuioliuytttttttttttttttytrds', expecting 'facilitys'
-==> Timeout
+==> Stdout
+facility's
+
+==> Return code 0
+==> Fail
 
 ==> Input: 'gbnbvcxsasdrtrds', expecting 'gnats'
-==> Timeout
+==> Stdout
+gnats
+
+==> Return code 0
+==> Pass
 
 ==> Input: 'tresaxdes', expecting 'taxes'
 ==> Stdout
@@ -692,7 +748,11 @@ messages
 ==> Fail
 
 ==> Input: 'sdfghjkliuytrer', expecting 'slitter'
-==> Timeout
+==> Stdout
+⛷
+
+==> Return code 0
+==> Fail
 
 ==> Input: 'mkiuytrssdrertyuiopoiuytreserfghnhgtred', expecting 'misrepresented'
 ==> Stdout
@@ -891,14 +951,11 @@ using
 ==> Fail
 
 ==> Input: 'poiuiopoil', expecting 'pupil'
-==> Stderr
-Traceback (most recent call last):
-  File "entries/flowhard.py", line 18, in <module>
-    print r[0]['term'] if len(r) > 0 else ""
-UnicodeEncodeError: 'ascii' codec can't encode character u'\U0001f6b8' in position 0: ordinal not in range(128)
+==> Stdout
+🚸
 
-==> Return code 1
-==> Error
+==> Return code 0
+==> Fail
 
 ==> Input: 'nbvcdsasdcvfdertyuklkjhgfds', expecting 'navels'
 ==> Stdout
@@ -1188,7 +1245,11 @@ lion
 ==> Pass
 
 ==> Input: 'edxcghjioploiuytdsdtyuiuhvfres', expecting 'explosives'
-==> Timeout
+==> Stdout
+explosives
+
+==> Return code 0
+==> Pass
 
 ==> Input: 'erfgnmmmmlpploiuyjmjhgrerfgbnhgt', expecting 'employment'
 ==> Stdout
@@ -1205,14 +1266,11 @@ sheep
 ==> Pass
 
 ==> Input: 'dfgyuioiuytrewwedfgbnjiuytresdrt', expecting 'downiest'
-==> Stderr
-Traceback (most recent call last):
-  File "entries/flowhard.py", line 18, in <module>
-    print r[0]['term'] if len(r) > 0 else ""
-UnicodeEncodeError: 'ascii' codec can't encode character u'\U0001f6a4' in position 0: ordinal not in range(128)
+==> Stdout
+🚤
 
-==> Return code 1
-==> Error
+==> Return code 0
+==> Fail
 
 ==> Input: 'mkoihgvfred', expecting 'moved'
 ==> Stdout
@@ -1628,14 +1686,11 @@ improperly
 ==> Pass
 
 ==> Input: 'fertyuytds', expecting 'fetuss'
-==> Stderr
-Traceback (most recent call last):
-  File "entries/flowhard.py", line 18, in <module>
-    print r[0]['term'] if len(r) > 0 else ""
-UnicodeEncodeError: 'ascii' codec can't encode character u'\U0001f3a1' in position 0: ordinal not in range(128)
+==> Stdout
+🎡
 
-==> Return code 1
-==> Error
+==> Return code 0
+==> Fail
 
 ==> Input: 'dertredcftrs', expecting 'detects'
 ==> Stdout
@@ -1694,6 +1749,6 @@ inundate
 ==> Pass
 
 ==> Done!
-==> Errors: 3/250       Fails: 67/250       Passes: 164/250     Timeouts: 16/250    
-==> Took 45.599085330963135 seconds, 0.18239634132385255 per test
-==> Fails: {('sasertrerthjkliuytred', 'satellited'), ('ascvbnhybjoiufddfgyuiuytres', 'anybodies'), ('dfgyuilkjhtred', 'dulled'), ('poiuygfer', 'puffer'), ('poiuytrsasvbnhgfdsasdvbnbgfdfghjklkjhgers', 'panhandlers'), ('bgresasdfyuiuytdses', 'braises'), ('fghuioiuhg', 'fog'), ('sdfghjkliopoiuyfdsdfghjioiuyfd', 'slipshod'), ('asdtyuiuytrtjklijnbgfer', 'airliner'), ('ikmnbvcxsasrtyuytrtyuiuytytrds', 'immaturitys'), ('ijnjuytrerfgbnbvfdfghioiuytds', 'innuendos'), ('bgresasdrtrds', 'brats'), ('csasertyuiolkjhgred', 'casseroled'), ('ijnbvcxsaasdftyuioppoiuytrdsaascvghuiuytrdsasdrtres', 'incapacitates'), ('oijhvfderrrrrrrrrrrrrrrewaxcftrds', 'overreacts'), ('ijnbvdsascvbnbgfesdt', 'inanest'), ('vcsasdtyuijnbgfresdt', 'vainest'), ('lkjhgfdsasertytrds', 'lays'), ('asereewasrres', 'arrearss'), ('hjioiuyfdsdrtrds', 'hoists'), ('sdfghjklkjhgrertres', 'sleets'), ('iuhgvgytrds', 'ivys'), ('hgfrertyhjkliuhgfcvghjkoppoiuytrertyuijnbg', 'helicoptering'), ('mnbvcdsasertrds', 'marts'), ('nbvcdsasdcvfdertyuklkjhgfds', 'navels'), ('rerfgbnnnnnnnnnnnnnnbfdeeeeeeeeeeeeeeeeeeeeeeeeeeeszxcvbhjioiuytfds', 'rendezvouss'), ('liuytreres', 'litters'), ('iuytdsdftyuijnbg', 'issuing'), ('asdfguiopoiuytred', 'aped'), ('cxsasdrtyuijnhg', 'casting'), ('cghuioijngfdesasdfghjklkjhgfds', 'congeals'), ('plkjhgfdsasrtreres', 'plasters'), ('thgrtyuiooijnbjijng', 'throbbing'), ('cghiokmujngfe', 'commune'), ('ghioiuyfdfvbnmkoiuythgfers', 'godmothers'), ('cvbhjklkjhgfdsasdfghgres', 'clashs'), ('qwertyuytrerfgbnmkliuytrer', 'queenlier'), ('resasdbnmnbvfds', 'rams'), ('miuhgcfrtyuioooooiugfgyuiolmnbvfds', 'microfilms'), ('mngfrertrtyuioiuyds', 'metros'), ('csasduiopoilkjhgfdsasdrrtytds', 'capillarys'), ('nbvfdsasdrtyuiopoijnbg', 'napping'), ('sdtyuhbvdsdftyuiuytfdsdrtrs', 'subsists'), ('hjioloiugcxasrtyuytdsdrtrds', 'holocausts'), ('sdfghjiokjnbgfre', 'shone'), ('cvghjioiujnhgtreresasdftresasxcvbjkjhgfds', 'counterattacks'), ('ases', 'asses'), ('kjnbvfdsasxcvhjkjhgfrer', 'knacker'), ('mkiuytresasdfgfes', 'mirages'), ('cvbjkloiuhgfcvhjkjhgfds', 'cloaks'), ('gfesdrtyuiuhgfcccccgyuilkjhgfdsasrtres', 'gesticulates'), ('lkjhgfdsasrty', 'lay'), ('bnkloiuytfdrthiuytressdrtyuiuytrer', 'bloodthirstier'), ('jiolkjuytred', 'jilted'), ('sdfyuiuytre', 'suite'), ('sdftyuikmjuuilkjhgfdsasdrtyuijnbg', 'simulating'), ('bjokmngfds', 'booms'), ('dfyuiuyty', 'ditty'), ('rerghuiiiiiuytrdsssssssssssssssssssssdrtresasrtyuiokjn', 'registrations'), ('wasdfghjkloiuytrews', 'wallows'), ('nbgfertyukloijng', 'nettling'), ('cghioiujngtytrds', 'countys'), ('opoijhgthgfdsasdfghjkllllllllkmkollllllllloiugytrds', 'ophthalmologys'), ('qwertyuytresasddrtyuuuuuuuuuuiopoiuytreds', 'quadrupeds'), ('tresazxcvbjkjhgred', 'tacked'), ('mnhgfrertyuiuytyuijnbg', 'meriting'), ('trertresasdbnjuytds', 'tetanuss')}
+==> Errors: 0/250       Fails: 76/250       Passes: 174/250     Timeouts: 0/250     
+==> Took 39.57552742958069 seconds, 0.15830210971832276 per test
+==> Fails: {('bnkloiuytfdrthiuytressdrtyuiuytrer', 'bloodthirstier'), ('plkjhgfdsasrtreres', 'plasters'), ('resasdbnmnbvfds', 'rams'), ('vcsasdtyuijnbgfresdt', 'vainest'), ('dfyuiuyty', 'ditty'), ('cghioiujngtytrds', 'countys'), ('ghioiuyfdfvbnmkoiuythgfers', 'godmothers'), ('mkiuytresasdfgfes', 'mirages'), ('cvghjioiujnhgtreresasdftresasxcvbjkjhgfds', 'counterattacks'), ('mngfrertrtyuioiuyds', 'metros'), ('lijnjikmnhgrefgbnht', 'liniment'), ('sdfyuiuytre', 'suite'), ('hjioiuyfdsdrtrds', 'hoists'), ('mnbvcdsasertrds', 'marts'), ('wasdfghjkloiuytrews', 'wallows'), ('rerghuiiiiiuytrdsssssssssssssssssssssdrtresasrtyuiokjn', 'registrations'), ('bjokmngfds', 'booms'), ('trertresasdbnjuytds', 'tetanuss'), ('thhgreresasrtttyuiopoiuyytds', 'therapys'), ('ascvbnhybjoiufddfgyuiuytres', 'anybodies'), ('bgresasdrtrds', 'brats'), ('ijnjuytrerfgbnbvfdfghioiuytds', 'innuendos'), ('tresazxcvbjkjhgred', 'tacked'), ('ijnbvcxsaasdftyuioppoiuytrdsaascvghuiuytrdsasdrtres', 'incapacitates'), ('fertyuytds', 'fetuss'), ('opoijhgthgfdsasdfghjkllllllllkmkollllllllloiugytrds', 'ophthalmologys'), ('sdfghjklkjhgrertres', 'sleets'), ('fghuioiuhg', 'fog'), ('sdtyuhbvdsdftyuiuytfdsdrtrs', 'subsists'), ('csasertyuiolkjhgred', 'casseroled'), ('sdftyuikmjuuilkjhgfdsasdrtyuijnbg', 'simulating'), ('ujnbfrtyuiuytrerghnbgfdfghjkliuytresdt', 'unfriendliest'), ('csasduiopoilkjhgfdsasdrrtytds', 'capillarys'), ('qwertyuytrerfgbnmkliuytrer', 'queenlier'), ('kjnbvfdsasxcvhjkjhgfrer', 'knacker'), ('asdfguiopoiuytred', 'aped'), ('sasertrerthjkliuytred', 'satellited'), ('dfgyuilkjhtred', 'dulled'), ('asdtyuiuytrtjklijnbgfer', 'airliner'), ('nbvcdsasdcvfdertyuklkjhgfds', 'navels'), ('ijnbvdsascvbnbgfesdt', 'inanest'), ('sdfghjiokjnbgfre', 'shone'), ('sdfghjkliuytrer', 'slitter'), ('liuytreres', 'litters'), ('hjioloiugcxasrtyuytdsdrtrds', 'holocausts'), ('thgrtyuiooijnbjijng', 'throbbing'), ('hgfrertyhjkliuhgfcvghjkoppoiuytrertyuijnbg', 'helicoptering'), ('iuytdsdftyuijnbg', 'issuing'), ('rerfgbnnnnnnnnnnnnnnbfdeeeeeeeeeeeeeeeeeeeeeeeeeeeszxcvbhjioiuytfds', 'rendezvouss'), ('cxsasdrtyuijnhg', 'casting'), ('ikmnbvcxsasrtyuytrtyuiuytytrds', 'immaturitys'), ('cghiokmujngfe', 'commune'), ('bgresasdfyuiuytdses', 'braises'), ('gfesdrtyuiuhgfcccccgyuilkjhgfdsasrtres', 'gesticulates'), ('nbgfertyukloijng', 'nettling'), ('nbvfdsasdrtyuiopoijnbg', 'napping'), ('poiuygfer', 'puffer'), ('poiuiopoil', 'pupil'), ('mnhgfrertyuiuytyuijnbg', 'meriting'), ('dfgyuioiuytrewwedfgbnjiuytresdrt', 'downiest'), ('iuhgvgytrds', 'ivys'), ('sdfghjkliopoiuyfdsdfghjioiuyfd', 'slipshod'), ('qwertyuytresasddrtyuuuuuuuuuuiopoiuytreds', 'quadrupeds'), ('asereewasrres', 'arrearss'), ('miuhgcfrtyuioooooiugfgyuiolmnbvfds', 'microfilms'), ('oijhvfderrrrrrrrrrrrrrrewaxcftrds', 'overreacts'), ('lkjhgfdsasrty', 'lay'), ('lkjhgfdsasertytrds', 'lays'), ('rerghmhgredfytrds', 'remedys'), ('fdsasxcghuioliuytttttttttttttttytrds', 'facilitys'), ('poiuytrsasvbnhgfdsasdvbnbgfdfghjklkjhgers', 'panhandlers'), ('jiolkjuytred', 'jilted'), ('cvbjkloiuhgfcvhjkjhgfds', 'cloaks'), ('cghuioijngfdesasdfghjklkjhgfds', 'congeals'), ('cvbhjklkjhgfdsasdfghgres', 'clashs'), ('ases', 'asses')}

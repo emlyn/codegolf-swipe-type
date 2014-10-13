@@ -1025,10 +1025,16 @@ only
 ==> Pass
 
 ==> Input: 'bhuytrtyuioiuytrews', expecting 'burrows'
-==> Timeout
+==> Stdout
+burrows
+==> Return code 0
+==> Pass
 
 ==> Input: 'erghnbvcxsasdfguiopoiuytdsdtyuilkjhgfdsasertred', expecting 'encapsulated'
-==> Timeout
+==> Stdout
+encapsulated
+==> Return code 0
+==> Pass
 
 ==> Input: 'sasertrerthjkliuytred', expecting 'satellited'
 ==> Stdout
@@ -1493,6 +1499,6 @@ injure
 ==> Fail
 
 ==> Done!
-==> Errors: 0/250       Fails: 37/250       Passes: 211/250     Timeouts: 2/250     
-==> Took 13.381541967391968 seconds, 0.05352616786956787 per test
-==> Fails: {('tresaxdes', 'taxes'), ('dedcfrtyuiuytres', 'decries'), ('bgresasdfyuiuytdses', 'braises'), ('dsasdfghnmnbfds', 'dams'), ('asdtyuiuytrtjklijnbgfer', 'airliner'), ('ijnjuytrerfgbnbvfdfghioiuytds', 'innuendos'), ('bgresasdrtrds', 'brats'), ('jiokjhgreres', 'jokers'), ('ijnbvdsascvbnbgfesdt', 'inanest'), ('vcsasdtyuijnbgfresdt', 'vainest'), ('wertyuijnbgfres', 'wines'), ('sdfyuikmnbgfertyuijnbg', 'simmering'), ('ytresawefgbnbvcds', 'yawns'), ('sdfguiopoiuytredftyuijng', 'speeding'), ('asdfguiopoiuytred', 'aped'), ('cxsasdrtyuijnhg', 'casting'), ('rerghmhgredfytrds', 'remedys'), ('cfrtyuiokjn', 'croon'), ('werthjikmngfds', 'whims'), ('mjuytrdsertyujm', 'museum'), ('edxcghjioploiuytdsdtyuiuhvfres', 'explosives'), ('cvbhjklkjhgfdsasdfghgres', 'clashs'), ('resasdbnmnbvfds', 'rams'), ('sdfghjiokjnbgfre', 'shone'), ('ases', 'asses'), ('mkiuytresasdfgfes', 'mirages'), ('cvbjkloiuhgfcvhjkjhgfds', 'cloaks'), ('jiolkjuytred', 'jilted'), ('ijnjuyfdsasrtre', 'inundate'), ('sdftyuikmjuuilkjhgfdsasdrtyuijnbg', 'simulating'), ('bjokmngfds', 'booms'), ('trerthjkliuytrds', 'trellis'), ('rerghuiiiiiuytrdsssssssssssssssssssssdrtresasrtyuiokjn', 'registrations'), ('bhuytred', 'butted'), ('cvbnkloiuyfdses', 'closes'), ('sdfyuijnghjklkjhytres', 'singles'), ('tresazxcvbjkjhgred', 'tacked')}
+==> Errors: 0/250       Fails: 37/250       Passes: 213/250     Timeouts: 0/250     
+==> Took 11.507471799850464 seconds, 0.046029887199401855 per test
+==> Fails: {('resasdbnmnbvfds', 'rams'), ('vcsasdtyuijnbgfresdt', 'vainest'), ('bhuytred', 'butted'), ('mkiuytresasdfgfes', 'mirages'), ('rerghuiiiiiuytrdsssssssssssssssssssssdrtresasrtyuiokjn', 'registrations'), ('ijnjuyfdsasrtre', 'inundate'), ('dedcfrtyuiuytres', 'decries'), ('bjokmngfds', 'booms'), ('bgresasdrtrds', 'brats'), ('ijnjuytrerfgbnbvfdfghioiuytds', 'innuendos'), ('sdfyuikmnbgfertyuijnbg', 'simmering'), ('dsasdfghnmnbfds', 'dams'), ('jiokjhgreres', 'jokers'), ('werthjikmngfds', 'whims'), ('tresazxcvbjkjhgred', 'tacked'), ('mjuytrdsertyujm', 'museum'), ('edxcghjioploiuytdsdtyuiuhvfres', 'explosives'), ('sdftyuikmjuuilkjhgfdsasdrtyuijnbg', 'simulating'), ('sdfyuijnghjklkjhytres', 'singles'), ('asdfguiopoiuytred', 'aped'), ('cfrtyuiokjn', 'croon'), ('asdtyuiuytrtjklijnbgfer', 'airliner'), ('ijnbvdsascvbnbgfesdt', 'inanest'), ('ytresawefgbnbvcds', 'yawns'), ('sdfghjiokjnbgfre', 'shone'), ('tresaxdes', 'taxes'), ('trerthjkliuytrds', 'trellis'), ('cxsasdrtyuijnhg', 'casting'), ('sdfguiopoiuytredftyuijng', 'speeding'), ('bgresasdfyuiuytdses', 'braises'), ('cvbnkloiuyfdses', 'closes'), ('wertyuijnbgfres', 'wines'), ('rerghmhgredfytrds', 'remedys'), ('cvbjkloiuhgfcvhjkjhgfds', 'cloaks'), ('jiolkjuytred', 'jilted'), ('cvbhjklkjhgfdsasdfghgres', 'clashs'), ('ases', 'asses')}
