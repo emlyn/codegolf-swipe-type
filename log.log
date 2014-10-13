@@ -6,15 +6,22 @@ Processing: Regex Solver
 	Options: argv: true
 	Runner command: ruby entries/regex-solver.rb
 	Running... Done!
-	Took 16.983240365982056 seconds, 0.06793296146392823 per test
+	Took 16.561955213546753 seconds, 0.06624782085418701 per test
 
 Processing: Direction Checker
 	Options: argv: true
 	Runner command: php entries/direction-checker.php
 	Running... Done!
-	Took 8.064208507537842 seconds, 0.032256834030151366 per test
+	Took 13.381541967391968 seconds, 0.05352616786956787 per test
+
+Processing: Flowhard
+	Options: argv: true
+	Runner command: python entries/flowhard.py
+	Running... Done!
+	Took 45.599085330963135 seconds, 0.18239634132385255 per test
 
 Testing done!
 ====================================================================================================
-Direction Checker:  Errors: 0/250       Fails: 37/250       Passes: 213/250     Timeouts: 0/250     
+Direction Checker:  Errors: 0/250       Fails: 37/250       Passes: 211/250     Timeouts: 2/250     
 Regex Solver:       Errors: 0/250       Fails: 70/250       Passes: 180/250     Timeouts: 0/250     
+Flowhard:           Errors: 3/250       Fails: 67/250       Passes: 164/250     Timeouts: 16/250    
